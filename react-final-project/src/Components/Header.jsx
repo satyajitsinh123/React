@@ -24,12 +24,12 @@ function Header() {
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 px-5">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
-                  Home
+                  <b>Home</b>
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Link
+                  <b>About us</b>
                 </a>
               </li>
               <li className="nav-item dropdown">
@@ -41,7 +41,7 @@ function Header() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Menu
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
@@ -71,21 +71,34 @@ function Header() {
                   tabindex="-1"
                   aria-disabled="true"
                 >
-                  Disabled
+                Blog
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                >
+                Pages
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                >
+                Contact
                 </a>
               </li>
             </ul>
-            <form className="d-flex">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button className="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
+            <div className="img-right">
+              
+            </div>
+        
           </div>
         </div>
       </nav>
