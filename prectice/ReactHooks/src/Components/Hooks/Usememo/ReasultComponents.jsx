@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 
-function ReasultComponents({ Name, Mark, Subject, Percentage }) {
+function ReasultComponents({ Name, Mark, Subject}) {
   console.log("inside reasult");
 
   const parcentage = useMemo(() => {
@@ -13,7 +13,7 @@ function ReasultComponents({ Name, Mark, Subject, Percentage }) {
         <h1 className="text-bg-dark mt-1 mx-2">Name : {Name}</h1>
         <h2 className="text-bg-dark mt-1 mx-2">Mark : {Mark}</h2>
         <h3 className="text-bg-dark mt-1 mx-2">Subject : {Subject}</h3>
-        <h4 className="text-bg-dark mt-1 mx-2">Percentage : {Percentage}</h4>
+        <h4 className="text-bg-dark mt-1 mx-2">Percentage : {parcentage}</h4>
       </div>
     </>
   );

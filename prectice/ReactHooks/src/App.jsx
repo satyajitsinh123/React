@@ -1,18 +1,21 @@
-import NameComponents from "./Components/Hooks/Usememo/NameComponents";
-import ReasultComponents from "./Components/Hooks/Usememo/ReasultComponents";
-import MarkComponents from "./Components/MarkComponents";
+// import NameComponents from "./Components/Hooks/Usememo/NameComponents";
+// import ReasultComponents from "./Components/Hooks/Usememo/ReasultComponents";
+// import MarkComponents from "./Components/Hooks/Usememo/MarkComponents";
+import CounterCallback from "./Components/Hooks/UseCallback/CounterCallback";
 
 function App() {
   return (
     <>
-      <MarkComponents Mark={60} />
+      {/* <MarkComponents Mark={60} />
       <NameComponents Name={"Satyajitsinh Gohil"} />
       <ReasultComponents
         Name={"Satyajitsinh Gohil"}
-        Mark={90}
+        Mark={88}
         Subject={"hindi"}
-        Percentage={50}
-      />
+      /> */}
+
+      <CounterCallback/>
+      
     </>
   );
 }
