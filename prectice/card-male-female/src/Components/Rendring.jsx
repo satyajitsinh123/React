@@ -8,7 +8,7 @@ function Rendring() {
   if (main === "MEN") {
     return (
       <div className="container">
-        <div className="row d-flex justify-content-center gap-4 mt-5">
+        <div className="row d-flex justify-content-center gap-4 mt-5 bg-black">
           <Men
             img="img-tshirst-2"
             title="black-tshirt"

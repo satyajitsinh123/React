@@ -5,9 +5,11 @@ function ButtonCounter({ increment }) {
 
   return (
     <>
+    <div className="main text-center">
       <button className="btn btn-danger" onClick={increment}>
         +
       </button>
+      </div>
     </>
   );
 }

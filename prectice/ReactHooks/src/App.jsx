@@ -2,6 +2,9 @@
 // import ReasultComponents from "./Components/Hooks/Usememo/ReasultComponents";
 // import MarkComponents from "./Components/Hooks/Usememo/MarkComponents";
 import CounterCallback from "./Components/Hooks/UseCallback/CounterCallback";
+import Navbar from "./Components/Hooks/UseContext/Navbar";
+import PerentComponent from "./Components/Hooks/UseContext/PerentComponent";
+import ReducerForm from "./Components/Hooks/UseReducer/ReducerForm";
 
 function App() {
   return (
@@ -14,8 +17,11 @@ function App() {
         Subject={"hindi"}
       /> */}
 
-      <CounterCallback/>
-      
+      {/* <CounterCallback /> */}
+      {/* <Navbar/> */}
+      {/* <PerentComponent /> */}
+
+      <ReducerForm />
     </>
   );
 }

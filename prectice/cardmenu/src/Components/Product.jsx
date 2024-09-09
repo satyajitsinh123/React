@@ -24,9 +24,9 @@ function Product({ products }) {
 
   return (
     <>
-      <div className="container mt-5 p-4 text-bg-danger">
+      <div className="container p-4 text-bg-danger">
         <h1 className="text-center py-3 text-bg-black mb-5">Products Card</h1>
-        <ul className="list-unstyled d-flex justify-content-between flex-wrap gap-5">
+        <ul className="list-unstyled d-flex justify-content-around flex-wrap gap-5">
           {cardData}
         </ul>
       </div>
