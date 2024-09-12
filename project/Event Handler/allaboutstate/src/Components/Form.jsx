@@ -53,7 +53,7 @@ function Form() {
       </div>
       <form className="container w-50" onSubmit={(e) => e.preventDefault()}>
         <div className="mb-4">
-          <label className="form-label">FIRST NAME :</label>
+          <label className="form-label">FIRST NAME : </label>
           <input
             type="text"
             className="form-control"
@@ -63,7 +63,7 @@ function Form() {
         </div>
 
         <div className="mb-4">
-          <label className="form-label">LAST NAME :</label>
+          <label className="form-label">LAST NAME : </label>
           <input
             type="text"
             className="form-control"
@@ -73,7 +73,7 @@ function Form() {
         </div>
 
         <div className="mb-4">
-          <label className="form-label">Email :</label>
+          <label className="form-label">Email : </label>
           <input
             type="email"
             className="form-control"

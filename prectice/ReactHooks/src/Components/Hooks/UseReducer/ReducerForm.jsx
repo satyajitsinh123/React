@@ -3,13 +3,17 @@ import React, { useReducer } from "react";
 const InitioalValue = {
   name: "",
   age: "",
-  mobile: "",
-  emial: "",
+  number: "",
+  email: "",
 };
 
-function reducerFuntion(preveState, nextState) {
-  console.log("nextState",nextState);
+function handelaClick() {
   
+}
+
+function reducerFuntion(preveState, nextState) {
+  console.log("nextState", nextState);
+
   return { ...preveState, ...nextState };
 }
 
@@ -18,10 +22,6 @@ function ReducerForm() {
 
   function handelaName(e) {
     setForm({ name: e.target.value });
-  }
-
-  function handelaAge(e) {
-    setForm({ age: e.target.value });
   }
 
   function handelaAge(e) {
@@ -37,8 +37,7 @@ function ReducerForm() {
   }
 
   function handelaClick() {
-    console.log("Form subbmited",{form});
-    
+    console.log("Form subbmited", { form });
   }
   return (
     <>
@@ -74,7 +73,17 @@ function ReducerForm() {
           value={form.email}
         />
 
-        <button className="btn btn-danger my-3" onClick={handelaClick}>Submit</button>
+        <button className="btn btn-danger my-3" onClick={handelaClick}>
+          Submit
+        </button>
+      </div>
+
+
+      <div className="main w-50 rounded-3 bg-black container">
+        <h4 className=" text-light p-2">Name : {form.name}</h4>
+        <h4 className=" text-light p-2">Age : {form.age}</h4>
+        <h4 className=" text-light p-2">Number : {form.number}</h4>
+        <h4 className=" text-light p-2">Email : {form.email}</h4>
       </div>
     </>
   );
