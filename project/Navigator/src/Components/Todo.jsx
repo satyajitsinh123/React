@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 let nextId = 0;
 
-function Todolist() {
+function Todo() {
   const [task, setTask] = useState("");
   const [items, setItems] = useState([]);
   const [EditId, setEditId] = useState(null);
@@ -11,6 +11,11 @@ function Todolist() {
     setItems([...items, { id: nextId++, task: task }]);
     setTask("");
   }
+
+  function DeletHendler(id) {
+    setItems(items.filter((e) => e.id !== id));
+  }
+
 
   const itemData = items.map((item) => (
     <div
@@ -40,25 +45,14 @@ function Todolist() {
   ));
 
   useEffect(() => {
-    const itemStore = JSON.parse(localStorage.getItem("task"));
-    if (itemStore) {
-      setItems(itemStore);
-    }
-  }, []);
-
-  useEffect(() => {
     localStorage.setItem("task", JSON.stringify(items));
   }, [items]);
 
 
-  function DeletHendler(id) {
-    setItems(items.filter((e) => e.id !== id));
-  }
-
   function EditHendler(id, task) {
     const editedTask = items.find((item) => item.id === id);
     setTask(editedTask.task); 
-    setEditId(id); d
+    setEditId(id);
   }
 
   function UpdetHendler() {
@@ -99,10 +93,10 @@ function Todolist() {
             {EditId !== null ? "Updet" : "Add"}
           </button>
         </form>
-        <div className="container p-2">{itemData}</div>
+        {/* <div className="container p-2">{itemData}</div> */}
       </div>
     </>
   );
 }
 
-export default Todolist;
+export default Todo;
