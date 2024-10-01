@@ -16,7 +16,6 @@ function Todo() {
     setItems(items.filter((e) => e.id !== id));
   }
 
-
   const itemData = items.map((item) => (
     <div
       key={item.id}
@@ -48,27 +47,24 @@ function Todo() {
     localStorage.setItem("task", JSON.stringify(items));
   }, [items]);
 
-
   function EditHendler(id, task) {
     const editedTask = items.find((item) => item.id === id);
-    setTask(editedTask.task); 
+    setTask(editedTask.task);
     setEditId(id);
   }
 
   function UpdetHendler() {
     let NewList = items.map((item) => {
-        if (item.id === EditId) {
-          return { ...item, task: task }; 
-        }
-        return item;
-      })
+      if (item.id === EditId) {
+        return { ...item, task: task };
+      }
+      return item;
+    });
     setItems(NewList);
     setTask("");
     setEditId(null);
   }
 
-
-  
   return (
     <>
       <div className="container bg-danger rounded-5 text-center p-4 mt-3 w-50">
@@ -88,7 +84,7 @@ function Todo() {
 
           <button
             className="btn btn-dark mx-1"
-            onClick={EditId !== null ?  UpdetHendler : addHandlers}
+            onClick={EditId !== null ? UpdetHendler : addHandlers}
           >
             {EditId !== null ? "Updet" : "Add"}
           </button>

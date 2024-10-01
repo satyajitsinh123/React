@@ -1,6 +1,7 @@
 import Navbar from "./Componet/Navbar";
 import Slider from "./Componet/Slider";
 import Card from "./Componet/Card";
+import Footer from "./Componet/Footer";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Slider />
       <Card />
+      <Footer/>
     </>
   );
 }

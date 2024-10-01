@@ -59,6 +59,7 @@ function Form() {
             className="form-control"
             value={Form.name}
             onChange={hendlerFirstNAme}
+            
           />
         </div>
 

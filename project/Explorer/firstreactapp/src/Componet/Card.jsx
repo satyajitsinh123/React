@@ -71,6 +71,70 @@ function Card() {
             </div>
           </div>
         </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://images.pexels.com/photos/1893556/pexels-photo-1893556.jpeg?auto=compress&cs=tinysrgb&w=600"
+              class="card-img-top object-fit-cover" style={{height:200}}
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Chips</h5>
+              <p class="card-text">
+                There’s nothing more deflating than going to all the effort of
+                making your own fries from scratch, only to find table.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://images.pexels.com/photos/1893556/pexels-photo-1893556.jpeg?auto=compress&cs=tinysrgb&w=600"
+              class="card-img-top object-fit-cover" style={{height:200}}
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Chips</h5>
+              <p class="card-text">
+                There’s nothing more deflating than going to all the effort of
+                making your own fries from scratch, only to find table.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://images.pexels.com/photos/1893556/pexels-photo-1893556.jpeg?auto=compress&cs=tinysrgb&w=600"
+              class="card-img-top object-fit-cover" style={{height:200}}
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Chips</h5>
+              <p class="card-text">
+                There’s nothing more deflating than going to all the effort of
+                making your own fries from scratch, only to find table.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://images.pexels.com/photos/1893556/pexels-photo-1893556.jpeg?auto=compress&cs=tinysrgb&w=600"
+              class="card-img-top object-fit-cover" style={{height:200}}
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Chips</h5>
+              <p class="card-text">
+                There’s nothing more deflating than going to all the effort of
+                making your own fries from scratch, only to find table.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
