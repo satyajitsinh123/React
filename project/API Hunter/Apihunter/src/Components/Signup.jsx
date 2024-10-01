@@ -75,7 +75,7 @@ function Signup() {
               </div>
 
               <button
-                className="btn btn-primary w-100 animate__animated animate__pulse animate__infinite"
+                className="btn btn-dark w-100 animate__animated animate__pulse animate__infinite"
               >
                 Sign Up
               </button>

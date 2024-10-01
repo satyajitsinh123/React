@@ -73,7 +73,7 @@ function Login({ setUser, toggleLogin }) {
                 onChange={(e) => { setPassword(e.target.value) }}
               />
             </div>
-            <button type="submit" className="btn btn-primary w-100 animate__animated animate__pulse animate__infinite">
+            <button type="submit" className="btn btn-dark w-100 animate__animated animate__pulse animate__infinite">
               Login
             </button>
             <button type="button" className="btn btn-secondary w-100 mt-2 animate__animated animate__fadeInUp animate__delay-2s" onClick={handlesignup}>
