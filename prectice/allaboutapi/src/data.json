@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "Harsh",
+    "email": "harsh@gmail.com"
+  },
+  {
+    "id": 2,
+    "name": "Nishit",
+    "email": "nishit@gmail.com"
+  },
+  {
+    "id": 3,
+    "name": "Manav",
+    "email": "manav@gmail.com"
+  },
+  {
+    "id": 4,
+    "name": "Nikunj",
+    "email": "nikunj@gmail.com"
+  },
+
+  {
+    "id": 5,
+    "name": "Satyajitsinh",
+    "email": "satyajitsinh@gmail.com"
+  },
+  {
+    "id": 6,
+    "name": "Shreydeepsinh",
+    "email": "shreydeepsinh@gmail.com"
+  },
+  {
+    "id": 7,
+    "name": "Dhruval",
+    "email": "dhruval@gmail.com"
+  },
+  {
+    "id": 8,
+    "name": "Masum",
+    "email": "masum@gmail.com"
+  }
+]
