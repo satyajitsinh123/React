@@ -85,8 +85,8 @@ function ProductData() {
                   <p className="card-text">
                     <i>{product.description.slice(0, 60)}</i>
                   </p>
-                  <h5 style={{ color: "#646464" }}>Rating ➥ {product.rating}</h5>
-                  <h5 style={{ color: "#646464" }}>Stock ➥ {product.stock}</h5>
+                  <h5 style={{ color: "#646464" }}>Rating  {product.rating}</h5>
+                  <h5 style={{ color: "#646464" }}>Stock  {product.stock}</h5>
                   <h5 className="mt-4">
                     <mark className="px-3 py-1 rounded-3 border border-3 border-success">
                       $ {product.price}
