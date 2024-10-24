@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from './Components/Header'
-
 import ProductData from './Components/ProductData'
 import Footer from './Components/Footer'
 

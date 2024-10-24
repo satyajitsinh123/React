@@ -57,24 +57,24 @@ function Todolist() {
 
   function EditHendler(id, task) {
     const editedTask = items.find((item) => item.id === id);
-    setTask(editedTask.task); 
+    setTask(editedTask.task);
     setEditId(id); d
   }
 
   function UpdetHendler() {
     let NewList = items.map((item) => {
-        if (item.id === EditId) {
-          return { ...item, task: task }; 
-        }
-        return item;
-      })
+      if (item.id === EditId) {
+        return { ...item, task: task };
+      }
+      return item;
+    })
     setItems(NewList);
     setTask("");
     setEditId(null);
   }
 
 
-  
+
   return (
     <>
       <div className="container bg-danger rounded-5 text-center p-4 mt-3 w-50">
@@ -94,7 +94,7 @@ function Todolist() {
 
           <button
             className="btn btn-dark mx-1"
-            onClick={EditId !== null ?  UpdetHendler : addHandlers}
+            onClick={EditId !== null ? UpdetHendler : addHandlers}
           >
             {EditId !== null ? "Updet" : "Add"}
           </button>
